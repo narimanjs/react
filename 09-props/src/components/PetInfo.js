@@ -1,12 +1,9 @@
 function PetInfo(props) {
-  const { animal, age, hasPet } = props;
-
-  return hasPet ? (
+  const { animal, age } = props;
+  return (
     <h1>
       My {animal} is {age} years old!
     </h1>
-  ) : (
-    <h2>I don't have any pets</h2>
   );
 }
 
