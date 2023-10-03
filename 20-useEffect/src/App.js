@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     console.log('callback in useEffect');
-    fetch('https://jsonplaceholder.typicode.com/todos/7')
+    fetch('https://jsonplaceholder.typicode.com/todos/4')
       .then(response => response.json())
       .then(json => setTodo(json));
   }, []);
